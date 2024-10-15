@@ -5,8 +5,6 @@
 
 This project is a submission for the Frontend Developer position, focusing on implementing a Figma design using Next.js. The app is responsive and optimized for different devices.
 
-Live Demo: https://ms-machine-test.vercel.app/
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -22,16 +20,15 @@ Live Demo: https://ms-machine-test.vercel.app/
 
 ## Project Overview
 
-This project is a Next.js application that implements a responsive design based on a Figma mockup. The primary focus was to ensure that the application adheres to good frontend practices, is responsive, and functions well across different devices.
+This project was built using **Next.js** as the primary framework, with **React.js** for UI components and **Tailwind CSS** for styling. The goal was to convert the given Figma design into a fully functional, responsive website that works well on different devices.
 
 ## Technologies Used
 
 - **Next.js**: The React framework for production.
 - **React**: JavaScript library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **TypeScript**: For static typing and better developer experience.
-- **React Icons**: Icon library used for adding scalable icons.
-- **Swiper.js**: For implementing touch sliders and carousels.
+- **TypeScript**: Added for type-checking and better developer experience.
+- **React Icons**: Used for scalable icons across the UI.
 
 ## Getting Started
 
@@ -98,16 +95,22 @@ To run the production server:
 npm run start
 ```
 
+This will start the application in production mode, serving the optimized build.
+
 ## Testing
 
-There are currently no unit or integration tests in this project. However, you can add testing libraries like Jest or Cypress for future testing capabilities.
+At the moment, no unit or integration tests are included in the project. However, adding testing libraries like Jest or Cypress is recommended for future enhancements.
 
 ## Deployment
 
-This application is hosted on [Vercel](https://vercel.com/). To deploy it yourself:
+This application is live and hosted on Vercel. You can view the live demo by visiting the link below:
+
+**Live Demo**: [https://ms-machine-test.vercel.app/](https://ms-machine-test.vercel.app/)
+
+To deploy it yourself:
 
 1. Create a Vercel account if you don't have one.
-2. Link the Git repository to your Vercel account.
+2. Link the GitHub repository to your Vercel account.
 3. Vercel will automatically detect the Next.js project and handle the deployment.
 
 Once deployed, you will have a live link to your project.
@@ -116,13 +119,12 @@ Once deployed, you will have a live link to your project.
 
 - The design was based on a Figma mockup provided during the machine test.
 - The application is fully responsive and optimized for different screen sizes.
-- [Tailwind CSS](https://tailwindcss.com/) was used for fast and responsive styling.
+- [Tailwind CSS](https://tailwindcss.com/) was used for rapid and consistent styling.
+- TypeScript was used for added type safety during development.
 
 ---
 
-Feel free to reach out if you need any additional information regarding the project setup, code, or deployment.
-
----
+Feel free to reach out if you have any questions or need further clarification regarding the project setup or deployment process.
 
 ## License
 
