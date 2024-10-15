@@ -5,6 +5,8 @@
 
 This project is a submission for the Frontend Developer position, focusing on implementing a Figma design using Next.js. The app is responsive and optimized for different devices.
 
+Live Demo: https://ms-machine-test.vercel.app/
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
