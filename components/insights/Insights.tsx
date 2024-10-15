@@ -20,10 +20,11 @@ const Insights = () => {
   };
 
   return (
-    <section className="px-28 py-24">
-      <div className="flex justify-between">
-        <h1 className="font-light text-5xl">Latest Insights</h1>
-        <div>
+    <section className="px-4 md:px-28 py-12 md:py-24">
+      <div className="flex justify-between items-center mb-8">
+        <h1 className="font-light text-2xl md:text-5xl">Latest Insights</h1>
+
+        <div className="flex">
           <button
             className="rounded-full bg-[#F2F2F2] lg:p-4 p-2 mr-2"
             onClick={handlePrev}
